@@ -2,8 +2,10 @@
 name = "hello_world"
 version = "0.1.0"
 edition = "2021"
+path = "backend/main.rs"
 
 [dependencies]
 actix-web = "4"
 
 [dev-dependencies]
+
