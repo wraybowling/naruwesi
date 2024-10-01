@@ -2,6 +2,9 @@
 name = "hello_world"
 version = "0.1.0"
 edition = "2021"
+
+[[bin]]
+name = "hello_world"
 path = "backend/main.rs"
 
 [dependencies]
