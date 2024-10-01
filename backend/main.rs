@@ -1,7 +1,7 @@
 use actix_web::{web, App, HttpResponse, HttpServer};
 
 async fn index() -> HttpResponse {
-    HttpResponse::Ok().body(include_str!("index.html"))
+    HttpResponse::Ok().body(include_str!("../frontend/index.html"))
 }
 
 #[actix_web::main]
